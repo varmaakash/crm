@@ -225,6 +225,7 @@ className="border p-2"
 <option>Admission Partner reference</option>
 <option>Student Refer</option>
 <option>Others</option>
+<option>Bulkupload</option>
 
 </select>
 

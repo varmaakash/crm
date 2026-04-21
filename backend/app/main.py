@@ -13,6 +13,8 @@ from app.routes import lead_routes
 from app.routes import followup_routes
 from app.routes import movement_routes
 from app.routes import dashboard_routes
+from app.routes import dashboard
+
 
 
 # -----------------------------
@@ -53,6 +55,8 @@ app.include_router(followup_routes.router)
 app.include_router(movement_routes.router)
 
 app.include_router(dashboard_routes.router)
+
+app.include_router(dashboard.router)
 
 
 # -----------------------------

@@ -19,3 +19,4 @@ class Followup(Base):
     next_followup = Column(Date)
 
     created_at = Column(DateTime, default=datetime.utcnow)
+    completed_at = Column(DateTime, nullable=True)
